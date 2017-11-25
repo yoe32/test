@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Tester</servlet-name>
+  	<display-name>Tester</display-name>
+  	<description></description>
+  	<servlet-class>com.example.testos3.Tester</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Tester</servlet-name>
+  	<url-pattern>/Tester</url-pattern>
+  </servlet-mapping>
 </web-app>
